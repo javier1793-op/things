@@ -1,0 +1,29 @@
+.addForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    min-width: 100%;
+}
+.addForm .textAdd{
+    padding: 7px 5px;
+    min-width: 70%;
+}
+.addForm button{
+    padding: 7px 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  #58d68d;
+    color:  #239b56;
+    font-weight: 700;
+    font-size: 25px;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s all;
+}
+.addForm button:hover{
+    background: #239b56 ;
+    color:  #58d68d;
+}

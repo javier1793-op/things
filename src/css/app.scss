@@ -1,0 +1,48 @@
+.cardContainer{
+    width: 30rem;
+    background: #5d6d7e;
+    padding: 2rem 1rem;
+    box-shadow:  rgba( 236, 240, 241, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 5px;
+}
+.cardContainer .cardHead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    min-width: 100%;
+}
+.cardContainer .cardHead h1{
+    font-weight: 600;
+    color: #aeb6bf;
+}
+.cardContainer .cardHead section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 100%;
+    padding: 1rem 0;
+}
+.cardContainer .cardHead section span{
+    color:  #e59866;
+    font-size: 22px;
+    padding: 0 5px;
+}
+.cardContainer .cardAdd{
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 1rem; 
+    border-bottom: 1px solid  #aed6f1 ;
+}
+.cardContainer .cardAdd h2{
+    color: #aeb6bf;
+}
