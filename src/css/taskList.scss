@@ -1,6 +1,6 @@
 .list{
-    min-width: 100%;
-    padding: 1rem 1rem;
+    min-width: 90%;
+    padding: 1rem 0;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -9,16 +9,14 @@
     align-items: center;
 }
 .list li{
-    display: flex;
-    min-width: 100%;
-    padding: 0 1rem;
-    align-items: center;
+    list-style: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+    width: 85%;
 }
 .list .btn-list{
     padding: 5px 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background:  #f1948a;
     color:   #cb4335;
     font-weight: 700;
@@ -41,12 +39,17 @@
     color: #85c1e9;
 }
 .list li span{
-    min-height: 5px;
+	display: flex;
+	align-items: center;
 }
 .list li span .labelItem{
-    min-width: 2px;
-    min-height: 2px;
-    border-radius: 50%;
-    border: 1px solid #cb4335;
-    cursor: pointer;
+    background-color: white;
+	width: 18px;
+	height: 18px;
+	border-radius: 20px;
+	border: 2px solid  #7dcea0;
+	cursor: pointer;
+}
+.list li span .labelItem.active{
+    background: #82e0aa;
 }

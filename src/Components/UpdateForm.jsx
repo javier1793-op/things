@@ -10,7 +10,7 @@ const UpdateForm = () => {
         type="text"
         name='description'
         className='text'
-        value='esta es la primera'
+        value='aca la primer tarea'
         />
         <button  className='btn-list' type='submit'><RxPencil1/></button>
     </form>

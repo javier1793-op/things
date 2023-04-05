@@ -46,3 +46,8 @@
 .cardContainer .cardAdd h2{
     color: #aeb6bf;
 }
+@media (max-width:920px){
+    .cardContainer{
+        width: 25rem;
+    }
+}
