@@ -10,13 +10,14 @@ export const useTodo=()=>{
     }
 
     const [Todos, dispatch] = useReducer( todoReduce, inicialState,init)
+   
+    const countTask = Todos.length;
+    const countPending = Todos.filter( todo => !todo.done).length
 
     useEffect(() => {
         localStorage.setItem('todos',JSON.stringify(Todos))
     }, [Todos])
     
-    const countTask = Todos.length
-    const countPending = Todos.filter(todos => !todos.done).length
     
     const handleNewTodo = todo =>{
         const action={

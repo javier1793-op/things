@@ -16,6 +16,7 @@ export const todoReduce= (inicialState, action)=>{
                                 done: !Todo.done
                             }
                         }
+                        return Todo
                     }
                 )    
 
@@ -27,6 +28,7 @@ export const todoReduce= (inicialState, action)=>{
                         description: action.payload.description
                     }
                 }
+                return Todo
             })
         default:
             return inicialState;
